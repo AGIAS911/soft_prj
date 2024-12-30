@@ -1,0 +1,116 @@
+body{
+    background-color: aliceblue;
+}
+.main-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    padding-top: 10px;
+  
+  
+  }
+  
+  /* Register Container */
+  .register-container {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    background-color: white;
+    padding: 10px;
+    padding-left: 500px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    width:80%;
+    max-width: 1000px;
+    
+  }
+  
+  /* Logo Section */
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .kasit-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    
+  }
+  
+  /* Register Form */
+  .register-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .register-form .form-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;  
+    color: #000;
+  
+  }
+  
+  .register-form .register-submit {
+    width: 30%;
+    padding: 10px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form .register-submit:hover {
+    background-color: #1a58cc;
+  }
+  
+  .register-form .login-redirect {
+    text-align: center;
+    margin-top: 15px;
+    color: #494747;
+  }
+  
+  .register-form .login-redirect a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .register-form .login-redirect a:hover {
+    text-decoration: underline;
+  }
+  .register-form .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 15px;
+   
+  }
+  /*.log_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 15px;
+   
+  }*/

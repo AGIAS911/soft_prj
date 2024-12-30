@@ -1,0 +1,99 @@
+/* General styling */
+body {
+
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 30px; 
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 60px); 
+  background-image: url('./src/kasit.jpeg'); 
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;  
+
+}
+
+
+/* Header */
+.App-header {
+  position: fixed; /* Makes the header fixed to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header stays above other elements */
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003391;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.register-button {
+  background-color: #38c4e7;
+  padding: 8px 12px;
+  border-radius: 50px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #18c4e2;
+}
+
+.register-button:hover {
+  background-color: #ffffff;
+ 
+}
+
+.select-login {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  height: 100vh; /* Full viewport height for vertical centering */
+  gap: 20px; /* Space between the buttons */
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #474747;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+   
+  transform: scale(1.05);
+}
+
